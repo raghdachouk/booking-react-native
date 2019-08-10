@@ -1,0 +1,38 @@
+{
+  
+ 
+  "expo": {
+    "name": "DotComApp",
+    "description": "This project is really great.",
+    "slug": "my-new-project",
+    "privacy": "public",
+    "sdkVersion": "28.0.0",
+   
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Capture2.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+     "bundleIdentifier": "com.DotCom.DotComApp",
+      "supportsTablet": true
+    },
+   
+      "android": {
+        "package": "com.DotCom.DotComApp"
+      
+    }
+   
+  }
+}
+
